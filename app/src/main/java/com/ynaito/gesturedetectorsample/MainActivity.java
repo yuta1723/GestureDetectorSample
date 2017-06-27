@@ -68,41 +68,41 @@ public class MainActivity extends AppCompatActivity {
         //set OnClickLister to each view
 
         layout01 = (RelativeLayout) findViewById(R.id.layout01);
-        layout01.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d(TAG, "onClick to layout1");
-            }
-        });
+//        layout01.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Log.d(TAG, "onClick to layout1");
+//            }
+//        });
         layout02 = (RelativeLayout) findViewById(R.id.layout02);
-        layout02.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d(TAG, "onClick to layout2");
-            }
-        });
+//        layout02.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Log.d(TAG, "onClick to layout2");
+//            }
+//        });
         layout03 = (RelativeLayout) findViewById(R.id.layout03);
-        layout03.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d(TAG, "onClick to layout3");
-            }
-        });
+//        layout03.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Log.d(TAG, "onClick to layout3");
+//            }
+//        });
 
         imageView01 = (ImageView) findViewById(R.id.imageView01);
-        imageView01.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d(TAG, "onClick to imageView01");
-            }
-        });
+//        imageView01.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Log.d(TAG, "onClick to imageView01");
+//            }
+//        });
         imageView02 = (ImageView) findViewById(R.id.imageView02);
-        imageView02.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d(TAG, "onClick to imageView02");
-            }
-        });
+//        imageView02.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Log.d(TAG, "onClick to imageView02");
+//            }
+//        });
 
         //set OnTouchLister to each view
 
